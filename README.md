@@ -1,11 +1,12 @@
 # SeeMyHouse
-An application that shows a 3D model of the building/house at a given coördinate location
+An application that shows a 3D model of the building/house at a given location based on coordinates.
 
 # Project To-Do List
 - [x] Set up environment in pycharm
-- [ ] Install needed base packages
+- [X] Install needed base packages
 - [x] Set up project repository
 - [x] Link pycharm project to github repository
+- [ ] Check what geopandas is
 - [ ] Set up readme for daily status update/reporting
 - [ ] Set up project Github Page for information/presentation & daily updating
 - [ ] Explore Data: learn new data types
