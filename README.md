@@ -20,6 +20,7 @@ computer.
 
 ### When
 Started: November 6, 2020
+
 Deadline: November 20, 2020
 
 ### How
@@ -47,8 +48,8 @@ There's also a daily checklist.
 - [x] Set up project repository
 - [x] Link pycharm project to github repository
 - [x] Pimp up the readme file
+- [x] Set up md file "workflow.md" for daily reporting
 - [ ] Check what geopandas is
-- [ ] Set up md file "workflow.md" for daily reporting
 - [ ] Set up project Github Page for information/presentation
 - [ ] Explore Data: learn new data types
 - [ ] Explore Data: look at data contents
