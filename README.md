@@ -41,7 +41,7 @@ required plots. ETA for finishing workable prototype visualizations: tuesday-ish
 Maja Minnaert for BeCode
 
 ## Project To-Do List
-There's also a daily checklist.
+There's also a [daily](daily.md) checklist.
 
 - [x] Set up environment in pycharm
 - [X] Install needed base packages
