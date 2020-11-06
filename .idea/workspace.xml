@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="" />
+    <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JupyterTrust" id="ee984c46-a72d-4010-b0bf-22dc625aaee1" />
   <component name="ProjectId" id="1juh14nULN5C72PhG95ZVay5OLE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -52,7 +60,7 @@
       <updated>1604659665716</updated>
       <workItem from="1604659674661" duration="507000" />
       <workItem from="1604660195462" duration="11000" />
-      <workItem from="1604660230835" duration="32000" />
+      <workItem from="1604660230835" duration="878000" />
     </task>
     <servers />
   </component>
@@ -64,5 +72,13 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2148" y="40" width="424" height="519" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604660174775" />
+    <state x="2232" y="714" width="276" height="207" key="Github.ShareDialog" timestamp="1604660446564">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2232" y="714" width="276" height="207" key="Github.ShareDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604660446564" />
+    <state x="2812" y="469" width="452" height="611" key="Github.UntrackedFilesDialog" timestamp="1604660459559">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2812" y="469" width="452" height="611" key="Github.UntrackedFilesDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604660459559" />
   </component>
 </project>
