@@ -35,7 +35,7 @@ is also a time of new beginnings: of the github repository, the notebook and oth
 this readme file and an integrated PyCharm-centered workflow.
 
 The future brings: extended data reconnaissance and iteratively building up the
-required plots. ETA for finishing workable prototype visualizations: tuesday-ish.
+required plots. ETA for finishing improvable basic prototype visualizations: tuesday-ish.
 
 ### Who
 Maja Minnaert for BeCode
