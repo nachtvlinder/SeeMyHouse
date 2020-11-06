@@ -10,7 +10,7 @@ A backend and interface for rendering a 3D model of a house at given coordinates
 Extras, pending further inspiration, will be listed here.
 
 ### Why
-Imagine a world where everyone can see there house, not by just walking outside and
+Imagine a world where everyone can see their house, not by just walking outside and
 looking at it, but by looking up the coordinates and typing them into some webpage or app
 that then shows them a 3D model of their house based on LIDAR data. Wouldn't that be
 awesome?
