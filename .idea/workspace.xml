@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="say hi">
+      <change afterPath="$PROJECT_DIR$/GeoData.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daily.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflow.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="ee984c46-a72d-4010-b0bf-22dc625aaee1" />
+  <component name="JupyterTrust" id="ee984c46-a72d-4010-b0bf-22dc625aaee1">
+    <option name="files">
+      <option value="GeoData.ipynb" />
+    </option>
+  </component>
   <component name="ProjectId" id="1juh14nULN5C72PhG95ZVay5OLE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -25,6 +40,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -60,12 +82,24 @@
       <updated>1604659665716</updated>
       <workItem from="1604659674661" duration="507000" />
       <workItem from="1604660195462" duration="11000" />
-      <workItem from="1604660230835" duration="878000" />
+      <workItem from="1604660230835" duration="4591000" />
     </task>
+    <task id="LOCAL-00001" summary="say hi">
+      <created>1604661394273</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604661394273</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="say hi" />
+    <option name="LAST_COMMIT_MESSAGE" value="say hi" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2148" y="40" width="424" height="519" key="FileChooserDialogImpl" timestamp="1604660174775">
@@ -80,5 +114,17 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2812" y="469" width="452" height="611" key="Github.UntrackedFilesDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604660459559" />
+    <state x="2812" y="343" width="992" height="737" key="SettingsEditor" timestamp="1604662301190">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2812" y="343" width="992" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604662301190" />
+    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604661494548">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604661494548" />
+    <state x="2174" y="730" width="392" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604672114449">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2174" y="730" width="392" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604672114449" />
   </component>
 </project>
