@@ -5,7 +5,8 @@ An application that shows a 3D model of the building/house at a given location b
 
 
 ### What
-A backend and interface for rendering a 3D model of a house at given coordinates.
+A backend and interface for rendering a 3D model of a house at given 
+coordinates in the area of Bruges, Belgium.
 
 Extras, pending further inspiration, will be listed here.
 
@@ -44,13 +45,13 @@ Maja Minnaert for BeCode
 There's also a [daily](daily.md) checklist.
 
 ### Pending
-- [ ] Determine use case data subset
+- [x] Determine use case data subset
 - [x] Download the data
+- [ ] Explore Data: study file types
 - [ ] Learn to work with geopandas
-- [ ] Explore Data: learn new data types
 - [ ] Explore Data: look at data contents
 - [ ] Explore Data: determine, try-out and find/choose needed packages
-- [ ] Explore&Design: experiment with data & its visualisation
+- [ ] Explore&Design: experiment with this data & its visualisation
 
 ### To do later
 - [ ] Design: preliminary solutions
