@@ -44,10 +44,9 @@ Maja Minnaert for BeCode
 There's also a [daily](daily.md) checklist.
 
 ### Pending
-- [x] Determine use case data subset
-- [x] Download the data
 - [ ] Explore Data: study file types
-- [x] Learn to work with geopandas
+- [ ] Learn to work with geopandas
+- [x] Add notebook for example files & gpd learning
 - [ ] Explore Data: look at data contents
 - [ ] Explore Data: determine, try-out and find/choose needed packages
 - [ ] Explore&Design: experiment with this data & its visualisation
@@ -69,3 +68,5 @@ There's also a [daily](daily.md) checklist.
 - [x] Set up md file "workflow.md" for daily reporting
 - [x] Check what geopandas is
 - [x] Install geopandas
+- [x] Determine use case data subset
+- [x] Download the data
