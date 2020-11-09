@@ -43,6 +43,22 @@ Maja Minnaert for BeCode
 ## Project To-Do List
 There's also a [daily](daily.md) checklist.
 
+### Pending
+- [ ] Learn to work with geopandas
+- [ ] Explore Data: learn new data types
+- [ ] Explore Data: look at data contents
+- [ ] Explore Data: determine, try-out and find/choose needed packages
+- [ ] Explore&Design: experiment with data & its visualisation
+
+### To do later
+- [ ] Design: preliminary solutions
+- [ ] Design: experiment with/test solutions
+- [ ] Design: make prototype
+- [ ] Design: loop above four until result satisfactory
+- [ ] Design: check for interface requirements?
+- [ ] Set up project Github Page for information/presentation
+
+### Done
 - [x] Set up environment in pycharm
 - [X] Install needed base packages
 - [x] Set up project repository
@@ -51,14 +67,3 @@ There's also a [daily](daily.md) checklist.
 - [x] Set up md file "workflow.md" for daily reporting
 - [x] Check what geopandas is
 - [x] Install geopandas
-- [x] Learn to work with geopandas
-- [ ] Explore Data: learn new data types
-- [ ] Explore Data: look at data contents
-- [ ] Explore Data: determine, try-out and find/choose needed packages
-- [ ] Explore&Design: experiment with data & its visualisation
-- [ ] Design: preliminary solutions
-- [ ] Design: experiment with/test solutions
-- [ ] Design: make prototype
-- [ ] Design: loop above four until result satisfactory
-- [ ] Design: check for interface requirements?
-- [ ] Set up project Github Page for information/presentation
