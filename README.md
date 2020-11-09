@@ -3,7 +3,6 @@ An application that shows a 3D model of the building/house at a given location b
 
 ## About
 
-
 ### What
 A backend and interface for rendering a 3D model of a house at given 
 coordinates in the area of Bruges, Belgium.
