@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="update README.md, add GeoData.ipynb a.o.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="update todolist, set up notebook work">
       <change beforePath="$PROJECT_DIR$/GeoData.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/GeoData.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="ee984c46-a72d-4010-b0bf-22dc625aaee1">
-    <option name="files">
-      <option value="GeoData.ipynb" />
-    </option>
-  </component>
+  <component name="JupyterTrust" id="ee984c46-a72d-4010-b0bf-22dc625aaee1" />
   <component name="ProjectId" id="1juh14nULN5C72PhG95ZVay5OLE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -81,7 +93,7 @@
       <workItem from="1604660195462" duration="11000" />
       <workItem from="1604660230835" duration="5395000" />
       <workItem from="1604693222268" duration="11000" />
-      <workItem from="1604909702251" duration="508000" />
+      <workItem from="1604909702251" duration="925000" />
     </task>
     <task id="LOCAL-00001" summary="say hi">
       <created>1604661394273</created>
@@ -97,16 +109,35 @@
       <option name="project" value="LOCAL" />
       <updated>1604674409418</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update todolist, set up notebook work">
+      <created>1604910449404</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604910449404</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="say hi" />
     <MESSAGE value="update README.md, add GeoData.ipynb a.o." />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md, add GeoData.ipynb a.o." />
+    <MESSAGE value="update todolist, set up notebook work" />
+    <option name="LAST_COMMIT_MESSAGE" value="update todolist, set up notebook work" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2148" y="40" width="424" height="519" key="FileChooserDialogImpl" timestamp="1604660174775">
@@ -121,17 +152,21 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2812" y="469" width="452" height="611" key="Github.UntrackedFilesDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604660459559" />
+    <state x="2107" y="106" width="1536" height="901" key="MergeDialog" timestamp="1604910392994">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2107" y="106" width="1536" height="901" key="MergeDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604910392994" />
     <state x="2812" y="343" width="992" height="737" key="SettingsEditor" timestamp="1604662301190">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2812" y="343" width="992" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604662301190" />
-    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604674433466">
+    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604910455414">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604674433466" />
-    <state x="2174" y="730" width="392" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604672114449">
+    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604910455414" />
+    <state x="2174" y="730" width="392" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604910477962">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2174" y="730" width="392" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604672114449" />
+    <state x="2174" y="730" width="392" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604910477962" />
   </component>
 </project>
