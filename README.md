@@ -44,6 +44,8 @@ Maja Minnaert for BeCode
 There's also a [daily](daily.md) checklist.
 
 ### Pending
+- [ ] Determine use case data subset
+- [x] Download the data
 - [ ] Learn to work with geopandas
 - [ ] Explore Data: learn new data types
 - [ ] Explore Data: look at data contents
