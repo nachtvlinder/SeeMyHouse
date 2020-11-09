@@ -49,8 +49,9 @@ There's also a [daily](daily.md) checklist.
 - [x] Link pycharm project to github repository
 - [x] Pimp up the readme file
 - [x] Set up md file "workflow.md" for daily reporting
-- [ ] Check what geopandas is
-- [ ] Set up project Github Page for information/presentation
+- [x] Check what geopandas is
+- [x] Install geopandas
+- [x] Learn to work with geopandas
 - [ ] Explore Data: learn new data types
 - [ ] Explore Data: look at data contents
 - [ ] Explore Data: determine, try-out and find/choose needed packages
@@ -60,9 +61,4 @@ There's also a [daily](daily.md) checklist.
 - [ ] Design: make prototype
 - [ ] Design: loop above four until result satisfactory
 - [ ] Design: check for interface requirements?
-- [ ] 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [ ] Set up project Github Page for information/presentation

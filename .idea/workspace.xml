@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="say hi">
-      <change afterPath="$PROJECT_DIR$/GeoData.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daily.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflow.md" afterDir="false" />
+    <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="update README.md, add GeoData.ipynb a.o.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeoData.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/GeoData.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,9 @@
       <updated>1604659665716</updated>
       <workItem from="1604659674661" duration="507000" />
       <workItem from="1604660195462" duration="11000" />
-      <workItem from="1604660230835" duration="4591000" />
+      <workItem from="1604660230835" duration="5395000" />
+      <workItem from="1604693222268" duration="11000" />
+      <workItem from="1604909702251" duration="508000" />
     </task>
     <task id="LOCAL-00001" summary="say hi">
       <created>1604661394273</created>
@@ -91,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604661394273</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update README.md, add GeoData.ipynb a.o.">
+      <created>1604674409418</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604674409418</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,7 +105,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="say hi" />
-    <option name="LAST_COMMIT_MESSAGE" value="say hi" />
+    <MESSAGE value="update README.md, add GeoData.ipynb a.o." />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md, add GeoData.ipynb a.o." />
   </component>
   <component name="WindowStateProjectService">
     <state x="2148" y="40" width="424" height="519" key="FileChooserDialogImpl" timestamp="1604660174775">
@@ -118,10 +125,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2812" y="343" width="992" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604662301190" />
-    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604661494548">
+    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604674433466">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604661494548" />
+    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604674433466" />
     <state x="2174" y="730" width="392" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604672114449">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
