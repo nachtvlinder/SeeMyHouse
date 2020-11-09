@@ -48,7 +48,7 @@ There's also a [daily](daily.md) checklist.
 - [x] Determine use case data subset
 - [x] Download the data
 - [ ] Explore Data: study file types
-- [ ] Learn to work with geopandas
+- [x] Learn to work with geopandas
 - [ ] Explore Data: look at data contents
 - [ ] Explore Data: determine, try-out and find/choose needed packages
 - [ ] Explore&Design: experiment with this data & its visualisation
