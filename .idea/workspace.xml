@@ -19,11 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="update notebook">
-      <change afterPath="$PROJECT_DIR$/LearningExcercises.ipynb" afterDir="false" />
+    <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="add practicedata folder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeoData.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/GeoData.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningExcercises.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/LearningExcercises.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow.md" beforeDir="false" afterPath="$PROJECT_DIR$/workflow.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -65,6 +66,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
     </key>
@@ -109,7 +113,8 @@
       <workItem from="1604914548443" duration="3465000" />
       <workItem from="1604925272899" duration="4555000" />
       <workItem from="1604930865289" duration="1836000" />
-      <workItem from="1604932719173" duration="3819000" />
+      <workItem from="1604932719173" duration="4044000" />
+      <workItem from="1604995869965" duration="13575000" />
     </task>
     <task id="LOCAL-00001" summary="say hi">
       <created>1604661394273</created>
@@ -174,7 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604935839512</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add excercise notebook; update README.md">
+      <created>1604936741602</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604936741602</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add practicedata folder">
+      <created>1604936864521</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604936864521</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +220,9 @@
     <MESSAGE value="update Project To-Do List; check if data stays local" />
     <MESSAGE value="add notebook experiments, add workflow report, update todolist" />
     <MESSAGE value="update notebook" />
-    <option name="LAST_COMMIT_MESSAGE" value="update notebook" />
+    <MESSAGE value="add excercise notebook; update README.md" />
+    <MESSAGE value="add practicedata folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="add practicedata folder" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3256" y="70" width="584" height="418" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604926804895">
@@ -225,16 +246,16 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2107" y="106" width="1536" height="901" key="MergeDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604910392994" />
-    <state x="2840" y="323" width="1920" height="737" key="SettingsEditor" timestamp="1604933471940">
+    <state x="2840" y="323" width="1920" height="737" key="SettingsEditor" timestamp="1605019392508">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="1920" y="343" width="1920" height="737" key="SettingsEditor/0.27.3840.1053@0.27.3840.1053" timestamp="1604919738181" />
-    <state x="2840" y="323" width="992" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604933471940" />
-    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604935845611">
+    <state x="2840" y="323" width="992" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605019392508" />
+    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604936875526">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="90" y="558" key="Vcs.Push.Dialog.v2/0.27.3840.1053@0.27.3840.1053" timestamp="1604917113409" />
-    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604935845611" />
+    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604936875526" />
     <state x="2174" y="730" width="392" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604910477962">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

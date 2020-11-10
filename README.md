@@ -25,7 +25,12 @@ Deadline: November 20, 2020
 
 ### How
 The evolution and general approach will
-be described here as time passes.
+be described here as time passes. A first glance of
+this, including issues encountered and
+solutions/approaches found and tested, 
+is available in the November 10 section of the
+[workflow](workflow.md) file, and will be 
+integrated in this README.md section early next working day.
 
 Also see the daily [workflow](workflow.md) report. 
 
@@ -43,10 +48,9 @@ Maja Minnaert for BeCode
 ## Project To-Do List
 There's also a [daily](daily.md) checklist.
 
-### Pending
+### Pending and/or partially done
 - [ ] Explore Data: study file types
 - [ ] Learn to work with geopandas
-- [x] Add notebook for example files & gpd learning
 - [ ] Explore Data: look at data contents
 - [ ] Explore Data: determine, try-out and find/choose needed packages
 - [ ] Explore&Design: experiment with this data & its visualisation
@@ -54,9 +58,9 @@ There's also a [daily](daily.md) checklist.
 ### To do later
 - [ ] Design: preliminary solutions
 - [ ] Design: experiment with/test solutions
-- [ ] Design: make prototype
-- [ ] Design: loop above four until result satisfactory
+- [ ] Design: make prototype interface
 - [ ] Design: check for interface requirements?
+- [ ] Design: loop above four until result satisfactory
 - [ ] Set up project Github Page for information/presentation
 
 ### Done
@@ -70,3 +74,4 @@ There's also a [daily](daily.md) checklist.
 - [x] Install geopandas
 - [x] Determine use case data subset
 - [x] Download the data
+- [x] Add notebook for example files & gpd learning
