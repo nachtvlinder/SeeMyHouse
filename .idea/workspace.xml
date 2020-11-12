@@ -19,11 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="update checklist">
-      <change afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
+    <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="update project todolist; add notes.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeoData.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/GeoData.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow.md" beforeDir="false" afterPath="$PROJECT_DIR$/workflow.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +116,7 @@
       <workItem from="1604932719173" duration="4044000" />
       <workItem from="1604995869965" duration="13809000" />
       <workItem from="1605024212423" duration="305000" />
-      <workItem from="1605178074972" duration="3569000" />
+      <workItem from="1605178074972" duration="10977000" />
     </task>
     <task id="LOCAL-00001" summary="say hi">
       <created>1604661394273</created>
@@ -216,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605024497996</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update project todolist; add notes.txt">
+      <created>1605187715671</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605187715671</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +254,8 @@
     <MESSAGE value="add practicedata folder" />
     <MESSAGE value="experiment with .tif and .shp; update README.md and workflow.md" />
     <MESSAGE value="update checklist" />
-    <option name="LAST_COMMIT_MESSAGE" value="update checklist" />
+    <MESSAGE value="update project todolist; add notes.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project todolist; add notes.txt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3256" y="70" width="584" height="418" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605187235231">
@@ -292,11 +300,11 @@
     </state>
     <state x="1920" y="343" width="1920" height="737" key="SettingsEditor/0.27.3840.1053@0.27.3840.1053" timestamp="1604919738181" />
     <state x="2840" y="323" width="992" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605019392508" />
-    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605024504734">
+    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605187719701">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="90" y="558" key="Vcs.Push.Dialog.v2/0.27.3840.1053@0.27.3840.1053" timestamp="1604917113409" />
-    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605024504734" />
+    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605187719701" />
     <state x="2174" y="730" width="392" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604910477962">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

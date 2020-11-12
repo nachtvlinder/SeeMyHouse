@@ -92,3 +92,38 @@ Next steps:
 - From there, 3D plotting the resulting slice will be the next challenge.
 QGIS looks helpful for determining the substeps of this 3D modeling process,
 before finding the python-based implementation step by step.
+## November 12, 2020
+
+### Done today:
+- Determined dataset boundary
+ for development use to one geotiff file
+- Figured out coordinate systems and CRS conversion
+
+### Still trying or partially succeeded:
+- Getting the precise needed conversion 
+ EPSG codes for the data at hand
+- Zooming in on a section of the DSM based on a
+coordinate point
+- 3D plotting from a (section of a) geotiff file
+
+### How it went:
+At first I jumped a bit back and forth between using the shapefile
+and the geotiff file, where I learned more about the
+difference and determined the data needed for this
+application is in the geotiff file. I used QGIS to 
+explore the data to select the most useful geotiff file.
+
+QGIS visualization (with the program) helped with
+fast looking in sufficient detail at the .tif files, by
+cutting out loading times.
+After finding the city area on one of these, I discarded
+the other zipfile contents to focus on this
+NGI map section since it contains the area that will
+be used in verifying the solution.
+
+I managed to collect information on the geotiff attributes
+using the rasterio library. Plotting the file data
+is still too slow, so focus should now be directed
+to zooming in on a chosen bounding box, and to do so based
+on coordinates within that bounding box (the former
+and latter are separated on the todolist).

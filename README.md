@@ -50,10 +50,14 @@ There's also a [daily](daily.md) checklist.
 
 ### Pending and/or partially done
 - [x] Explore&Design: experiment with this data & its visualisation
-- [ ] Try visualizing limited & selected area around coordinate point
+- [ ] Try visualizing limited & selected area around coordinate point in 2D
+- [ ] Finding needed axis data for 3D plot within geotiff data structure
+- [ ] Defining the bounding of an AOI (area of interest) box with the coordinate system of the file
+- [ ] Zooming in on a specific AOI
+- [ ] Defining said bounding box based on a coordinate present within the area of interest
 
 ### To do later
-- [ ] Find out how to 3D plot subset once selected area plot is achieved
+- [ ] Find out how to 3D plot AOI
 - [ ] Design: make prototype interface
 - [ ] Design: check for interface requirements?
 - [ ] Design: loop above four until result satisfactory
