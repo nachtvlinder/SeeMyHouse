@@ -49,15 +49,11 @@ Maja Minnaert for BeCode
 There's also a [daily](daily.md) checklist.
 
 ### Pending and/or partially done
-- [ ] Explore Data: study file types
-- [ ] Learn to work with geopandas
-- [ ] Explore Data: look at data contents
-- [ ] Explore Data: determine, try-out and find/choose needed packages
-- [ ] Explore&Design: experiment with this data & its visualisation
+- [x] Explore&Design: experiment with this data & its visualisation
+- [ ] Try visualizing limited & selected area around coordinate point
 
 ### To do later
-- [ ] Design: preliminary solutions
-- [ ] Design: experiment with/test solutions
+- [ ] Find out how to 3D plot subset once selected area plot is achieved
 - [ ] Design: make prototype interface
 - [ ] Design: check for interface requirements?
 - [ ] Design: loop above four until result satisfactory
@@ -75,3 +71,8 @@ There's also a [daily](daily.md) checklist.
 - [x] Determine use case data subset
 - [x] Download the data
 - [x] Add notebook for example files & gpd learning
+- [x] Add [notes](notes.txt) file for virtual post-its
+- [x] Explore Data: study file types
+- [x] Learn to work with geopandas
+- [x] Explore Data: look at data contents
+- [x] Explore Data: determine, try-out and find/choose needed packages

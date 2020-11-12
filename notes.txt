@@ -1,0 +1,8 @@
+Notes for reuse
+
+1. Coordinates for experimentation
+Bruges: 51.2093° N, 3.2247° E
+
+2. Ideas to advance project
+Try to plot a 40 square meter area around given coordinates (2D)
+Try the same in 3D
