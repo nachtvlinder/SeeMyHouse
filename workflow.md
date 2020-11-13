@@ -127,3 +127,14 @@ is still too slow, so focus should now be directed
 to zooming in on a chosen bounding box, and to do so based
 on coordinates within that bounding box (the former
 and latter are separated on the todolist).
+
+## November 13, 2020
+Experimented further with crs conversion and windowing. Portion of the 
+day went to work on presentation and some time was lost
+with an internet technician's visit. This is, however,
+partly good news since connection problems slowing down
+the work should soon be a thing of the past here.
+
+Not much code has changed or been added, mainly reading and 
+insight building was done today. This does bring me closer to
+realizing the goals of the project.
