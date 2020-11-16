@@ -22,6 +22,9 @@
     <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="update workflow.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeoData.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/GeoData.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily.md" beforeDir="false" afterPath="$PROJECT_DIR$/daily.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflow.md" beforeDir="false" afterPath="$PROJECT_DIR$/workflow.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +122,10 @@
       <workItem from="1605258630637" duration="3086000" />
       <workItem from="1605277111564" duration="2466000" />
       <workItem from="1605516135784" duration="821000" />
+      <workItem from="1605519900040" duration="1201000" />
+      <workItem from="1605521115161" duration="2581000" />
+      <workItem from="1605533022007" duration="137000" />
+      <workItem from="1605541187248" duration="195000" />
     </task>
     <task id="LOCAL-00001" summary="say hi">
       <created>1604661394273</created>
@@ -313,11 +320,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2107" y="106" width="1536" height="901" key="MergeDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604910392994" />
-    <state x="2840" y="323" width="1920" height="737" key="SettingsEditor" timestamp="1605259542522">
+    <state x="2840" y="323" width="1920" height="737" key="SettingsEditor" timestamp="1605523221940">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="1920" y="343" width="1920" height="737" key="SettingsEditor/0.27.3840.1053@0.27.3840.1053" timestamp="1604919738181" />
-    <state x="2840" y="323" width="992" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605259542522" />
+    <state x="2840" y="323" width="992" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605523221940" />
     <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605283937722">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

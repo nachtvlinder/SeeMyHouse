@@ -138,3 +138,18 @@ the work should soon be a thing of the past here.
 Not much code has changed or been added, mainly reading and 
 insight building was done today. This does bring me closer to
 realizing the goals of the project.
+
+## November 12, 2020
+Started in reverse today, trying to plot a 3D elevation model based
+on the plotly getting started pages on their website. This worked, 
+and I attempted to apply a custom colorscale to this as I had found
+one through another code approach found online. The source of the latter
+is found atop [the new plotly notebook](plotly.ipynb). The second approach listed
+at the top with a source URL is partially implemented there. Next working day
+I will move on to the more urgent matter of slicing, which has been a muddy
+area last week. I presume external issues have impacted my workflow there.
+*I'm still unsure how and with what tool I could manage to parse the GeoTIFF
+into a dataframe or geodataframe that holds x, y and z values
+for plotly to use and draw.* I would like to accomplish this tomorrow so 
+I can implement some UX and interface ideas and tweak the end-results in the last two
+days running up to the deadline.

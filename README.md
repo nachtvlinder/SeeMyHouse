@@ -50,7 +50,7 @@ Maja Minnaert for BeCode
 There's also a [daily](daily.md) checklist.
 
 ### Pending and/or partially done
-- [x] Explore&Design: experiment with this data & its visualisation
+- [ ] Parse geotiff into usable dataframe !!!!!!
 - [ ] Try visualizing limited & selected area around coordinate point in 2D
 - [ ] Finding needed axis data for 3D plot within geotiff data structure
 - [ ] Defining the bounding of an AOI (area of interest) box with the coordinate system of the file
@@ -58,7 +58,6 @@ There's also a [daily](daily.md) checklist.
 - [ ] Defining said bounding box based on a coordinate present within the area of interest
 
 ### To do later
-- [ ] Find out how to 3D plot AOI
 - [ ] Design: make prototype interface
 - [ ] Design: check for interface requirements?
 - [ ] Design: loop above four until result satisfactory
@@ -81,3 +80,6 @@ There's also a [daily](daily.md) checklist.
 - [x] Learn to work with geopandas
 - [x] Explore Data: look at data contents
 - [x] Explore Data: determine, try-out and find/choose needed packages
+- [x] Switched to plotly
+- [x] Made basic first figure with plotly
+- [x] Find out how to 3D plot AOI
