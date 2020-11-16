@@ -6,3 +6,15 @@ Bruges: 51.2093° N, 3.2247° E
 2. Ideas to advance project
 Try to plot a 40 square meter area around given coordinates (2D)
 Try the same in 3D
+
+3. Approach notes:
+- window is the best way to slice the geotiff
+- this can be done based on a center coordinate and using
+how much to the left, right, top and center to set the bounds
+of the slice
+- parse the sliced tiff, which returns as a numpy nd-array, into
+a pandas (basic pandas is fine) dataframe, which should contain
+the x, y and z data that plotly can work with to draw the
+interactive surface plot
+- once this workflow is done and implemented in a .py-script,
+it's onward to making a userfriendly UX

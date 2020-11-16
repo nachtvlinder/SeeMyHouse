@@ -50,6 +50,9 @@ Maja Minnaert for BeCode
 There's also a [daily](daily.md) checklist.
 
 ### Pending and/or partially done
+- [x] Updated [notes](notes.txt) with approach tips from debrief
+- [ ] First thing to do next morning: implement this approach in
+this  todolist
 - [ ] Parse geotiff into usable dataframe !!!!!!
 - [ ] Try visualizing limited & selected area around coordinate point in 2D
 - [ ] Finding needed axis data for 3D plot within geotiff data structure
