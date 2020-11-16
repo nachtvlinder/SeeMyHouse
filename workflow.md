@@ -153,3 +153,11 @@ into a dataframe or geodataframe that holds x, y and z values
 for plotly to use and draw.* I would like to accomplish this tomorrow so 
 I can implement some UX and interface ideas and tweak the end-results in the last two
 days running up to the deadline.
+
+The issue of parsing geotiff to dataframe was
+brought up during debrief, resulting in getting
+some very usable advice from a colleague. I notes this 
+in my [notes](notes.txt) file, intending
+to implement these into my project todolist.
+Fingers crossed for getting this backend algorithm
+figured out fast tomorrow.
