@@ -24,6 +24,7 @@ Started: November 6, 2020
 Deadline: November 20, 2020
 
 ### How
+Challenges arose in the windowing mainly, during the whole of the first week.
 The evolution and general approach will
 be described here as time passes. A first glance of
 this, including issues encountered and
