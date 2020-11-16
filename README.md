@@ -51,8 +51,12 @@ There's also a [daily](daily.md) checklist.
 
 ### Pending and/or partially done
 - [x] Updated [notes](notes.txt) with approach tips from debrief
-- [ ] First thing to do next morning: implement this approach in
-this  todolist
+- [x] Created first script file [SeeMyHouse-CLI](SeeMyHouse-CLI.py)
+- [x] Added comments in CLI-script to describe the algorithm
+ in human language
+- [ ] Translate script comments into code for interpreter
+
+### Content goals (to be edited)
 - [ ] Parse geotiff into usable dataframe !!!!!!
 - [ ] Try visualizing limited & selected area around coordinate point in 2D
 - [ ] Finding needed axis data for 3D plot within geotiff data structure
@@ -61,9 +65,8 @@ this  todolist
 - [ ] Defining said bounding box based on a coordinate present within the area of interest
 
 ### To do later
+- [ ] Add duplicate of CLI script to extend it with simple GUI
 - [ ] Design: make prototype interface
-- [ ] Design: check for interface requirements?
-- [ ] Design: loop above four until result satisfactory
 - [ ] Set up project Github Page for information/presentation
 
 ### Done
@@ -86,3 +89,4 @@ this  todolist
 - [x] Switched to plotly
 - [x] Made basic first figure with plotly
 - [x] Find out how to 3D plot AOI
+- [x] Design: check for interface requirements?

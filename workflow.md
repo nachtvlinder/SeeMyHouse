@@ -139,7 +139,7 @@ Not much code has changed or been added, mainly reading and
 insight building was done today. This does bring me closer to
 realizing the goals of the project.
 
-## November 12, 2020
+## November 16, 2020
 Started in reverse today, trying to plot a 3D elevation model based
 on the plotly getting started pages on their website. This worked, 
 and I attempted to apply a custom colorscale to this as I had found
@@ -161,3 +161,12 @@ in my [notes](notes.txt) file, intending
 to implement these into my project todolist.
 Fingers crossed for getting this backend algorithm
 figured out fast tomorrow.
+
+In the evening, I prepared a py-file with 
+the needed comments to describe the planned
+algorithm, ready to be translated one by one
+into python code. This is the main objective
+for tomorrow, November 17: to get this as a functional
+script with the desired outcome. Expansion can be
+made later, including a simple GUI. I also updated
+the project todolist accordingly.
