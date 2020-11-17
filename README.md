@@ -50,22 +50,18 @@ Maja Minnaert for BeCode
 There's also a [daily](daily.md) checklist.
 
 ### Pending and/or partially done
-- [x] Updated [notes](notes.txt) with approach tips from debrief
-- [x] Created first script file [SeeMyHouse-CLI](SeeMyHouse-CLI.py)
-- [x] Added comments in CLI-script to describe the algorithm
- in human language
 - [ ] Translate script comments into code for interpreter
-
-### Content goals (to be edited)
-- [ ] Parse geotiff into usable dataframe !!!!!!
-- [ ] Try visualizing limited & selected area around coordinate point in 2D
-- [ ] Finding needed axis data for 3D plot within geotiff data structure
-- [ ] Defining the bounding of an AOI (area of interest) box with the coordinate system of the file
-- [ ] Zooming in on a specific AOI
-- [ ] Defining said bounding box based on a coordinate present within the area of interest
+- [x] Write text interface (input and print statements)
+- [x] Read geotiff into rasterio object
+- [x] Convert coordinates
+- [ ] Construct window --> Complication raised
+- [ ] Convert window from nd-array to pandas dataframe --> Complication risk
+- [ ] Tie dataframe into plotly code --> Should be fairly straightforward
 
 ### To do later
 - [ ] Add duplicate of CLI script to extend it with simple GUI
+- [ ] Look into making said simple GUI
+- [ ] Look into using Brython to make this a web app on the project github page
 - [ ] Design: make prototype interface
 - [ ] Set up project Github Page for information/presentation
 
@@ -90,3 +86,7 @@ There's also a [daily](daily.md) checklist.
 - [x] Made basic first figure with plotly
 - [x] Find out how to 3D plot AOI
 - [x] Design: check for interface requirements?
+- [x] Updated [notes](notes.txt) with approach tips from debrief
+- [x] Created first script file [SeeMyHouse-CLI](SeeMyHouse-CLI.py)
+- [x] Added comments in CLI-script to describe the algorithm
+ in human language

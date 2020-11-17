@@ -170,3 +170,38 @@ for tomorrow, November 17: to get this as a functional
 script with the desired outcome. Expansion can be
 made later, including a simple GUI. I also updated
 the project todolist accordingly.
+
+## November 17, 2020
+My workday was split, due to personal affairs,
+into yesterday evening prep and code work today.
+
+Yesterday evening I prepared a python script file
+with the steps to encode (algorithm) in the form
+of comments. I also explored a bit the options
+of how to implement a simple GUI or a functional
+web-app on the project Github Page, respectively using
+PySimpleGUI and Brython. I'll also look into Dash.
+
+However priority remains with implementing the
+minimum requirements in a qualitative way. This
+is what I spent today doing. More specifically,
+I encoded the user input prompts and communication
+towards the user for a text-based interface, making
+it possible for the user to provide a filepath
+and coordinates after asking questions about compatibility
+with simple question-form input statements. In
+tandem with this process the necessary data is read
+into variable objects. Next I encoded the reading
+into rasterio object of the GeoTIFF file, the request
+of coordinates from the user, their conversion to Belgian
+Lambert from WGS84, and the construction of border values
+for the bounding box or window to be sliced from 
+the rasterio object. 
+
+At this point I ran into complications with
+implementing the rasterio windowing method. This 
+happened near the end of the workday, which puts 
+it immediately on the planning for next working
+session. I adopted a code line from our team
+chat which I have yet to analyze in further detail
+at that time.

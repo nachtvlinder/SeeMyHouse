@@ -3,49 +3,54 @@
 import plotly.graph_objects as go
 import pandas as pd
 import rasterio
+import pyproj
 
 # Global variables
 path = f""
 
 # This will import the given file
 # A filepath needs to be provided
-# (pending feature) the coordinates
-# available for plotting in 3D will
-# be communicated to the user
 # The user can then input a set
 # of coordinates provided in WGS84,
-# which is the standard most people know
-print("Welcome to SeeMyHouse"
-      "Unfortunately we don't have the functionality"
-      "yet to build in the required data or "
-      "fetch it from one of our servers ")
-tiff_available = input("Can you provide your own GeoTIFF file for 3D plotting? (y/n)")
-if tiff_available=="y":
+# the generally known standard coordinate system
+print("Welcome to SeeMyHouse")
+tiff_available = input("Can you provide your own GeoTIFF file for 3D plotting? (y/n) ")
+tiff_crs_compatible = input("Please not that only files"
+                            " using Belgian Lambert crs are "
+                            "compatible. Is your file compatible? (y/n) ")
+if tiff_available==("y" or "Y") and tiff_crs_compatible==("y" or "Y"):
     path = input("Please provide the filepath of your GeoTIFF: ")
-    print(f"Your filpath: {path}")
-else
-    print("I'm afraid we can't help you yet, please contact"
-          "mailto:maja.minnaert@gmail.com for further information")
+    print(f"Your filepath: {path}")
+else:
+    print("I'm afraid I can't help you yet.")
+    quit()
 
-# The next step is reading and windowing the given tiff file.
 print("Examining file")
 # Here comes the read statement,
-# if possible providing exception
-# message print-out for having
-# the wrong file format and prompting
-# retry with a suitable file
-#codecomeshere
-
-# Now that the file is confirmed we can ask for the coordinates
-#codecomeshere
+# followed by confirmation and a request
+# for coordinates to plot
+image = rasterio.open(path)
+print("File received")
+print("At what coordinates do you want me to plot?")
+latitude = float(input("Latitude: "))
+longitude = float(input("Longitude: "))
+# which we then need to convert from WGS84 to Belgian Lambert
+# returning them for confirmation
+converter = pyproj.Transformer.from_crs('epsg:4326', 'epsg:31370')
+x, y = converter.transform(latitude, longitude)
 
 # and use them to read a window around the coordinates
-#codecomeshere (rasterio window)
+
+# creating a bouding box around the coordinate point
+left = x - 100
+right = x + 100
+bottom = y - 100
+top = y + 100
 
 # followed by converting the resulting window,
 # which is returned by rasterio as an nd-array,
 # into a pandas dataframe
-#codecomeshere
+area_of_interest = image.read(1, window=from_bounds(left, bottom, right, top, image.transform))
 
 # We then use plotly to render a 3D plot
 # of this dataframe, based on its x, y and z data.
