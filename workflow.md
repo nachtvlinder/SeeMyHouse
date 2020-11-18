@@ -205,3 +205,30 @@ it immediately on the planning for next working
 session. I adopted a code line from our team
 chat which I have yet to analyze in further detail
 at that time.
+
+## November 18, 2020
+Today I implemented nearly all of the steps in the
+basic python script, which will be maintained as
+the product in its most basic form. Tomorrow I 
+hope to both implement a simple GUI using PySimpleGUI
+and Brython to make this available on the Github Page
+linked to the project repository. 
+
+Implemented today:
+- Text interface
+- Conversions of coordinates
+- Selecting window around coordinate
+- Repeated testing
+- Testing different coordinates
+- Analyzing spiking problem
+- Finishing touches on plotting
+
+Improvements in mind:
+- Making the code somewhat more modular, so
+it can be extended upon with different UX interfaces
+- Deploying a simple GUI interface
+- If possible deploying a web accessible interface
+- Fixing the spiking/scaling problem
+
+Overall this was a very productive day, thanks to the many
+research and preparations done in previous days.

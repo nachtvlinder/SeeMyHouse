@@ -50,18 +50,16 @@ Maja Minnaert for BeCode
 There's also a [daily](daily.md) checklist.
 
 ### Pending and/or partially done
-- [ ] Translate script comments into code for interpreter
-- [x] Write text interface (input and print statements)
-- [x] Read geotiff into rasterio object
-- [x] Convert coordinates
-- [ ] Construct window --> Complication raised
-- [ ] Convert window from nd-array to pandas dataframe --> Complication risk
-- [ ] Tie dataframe into plotly code --> Should be fairly straightforward
+- [ ] Fix scaling/spiking issue responsively
+(Look in to max-min dependent aspect ratio)
+- [ ] Set up Github Page
+- [ ] Make simple GUI
+- [ ] Study Brython and GUI implementation on web (Github Page)
 
 ### To do later
-- [ ] Add duplicate of CLI script to extend it with simple GUI
-- [ ] Look into making said simple GUI
+- [ ] Look into making simple GUI
 - [ ] Look into using Brython to make this a web app on the project github page
+- [ ] Set up placeholder yet informative Github Page
 - [ ] Design: make prototype interface
 - [ ] Set up project Github Page for information/presentation
 
@@ -90,3 +88,10 @@ There's also a [daily](daily.md) checklist.
 - [x] Created first script file [SeeMyHouse-CLI](SeeMyHouse-CLI.py)
 - [x] Added comments in CLI-script to describe the algorithm
  in human language
+- [x] Translate script comments into code for interpreter
+- [x] Write text interface (input and print statements)
+- [x] Read geotiff into rasterio object
+- [x] Convert coordinates
+- [x] Construct window --> Complication raised
+- [x] Convert window from nd-array to pandas dataframe --> Complication risk
+- [x] Tie dataframe into plotly code --> Should be fairly straightforward
