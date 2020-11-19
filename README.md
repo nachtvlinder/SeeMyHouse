@@ -1,13 +1,21 @@
 # SeeMyHouse
-An application that shows a 3D model of the building/house at a given location based on coordinates.
+A python script for rendering a 3D model of a house at given 
+coordinates based on a user-provided GeoTIFF.
 
 ## About
 
 ### What
-A backend and interface for rendering a 3D model of a house at given 
-coordinates in the area of Bruges, Belgium.
+A python script for rendering a 3D model of a house at given 
+coordinates based on a user-provided GeoTIFF.
 
-Extras, pending further inspiration, will be listed here.
+There is currently only a CLI based version, plans are
+in place to make a Dash web application with similar functionality
+and a py-script that operates with a simple GUI. This is first
+and foremost a practice experience embedded in BeCode's AI Bootcamp
+training, however I would enjoy building further on it.
+
+If you found this link through my future portfolio, you can see this
+as my first full application project.
 
 ### Why
 Imagine a world where everyone can see their house, not by just walking outside and
@@ -30,8 +38,8 @@ be described here as time passes. A first glance of
 this, including issues encountered and
 solutions/approaches found and tested, 
 is available in the November 10 section of the
-[workflow](workflow.md) file, and will be 
-integrated in this README.md section early next working day.
+[workflow](workflow.md) file. I will update
+this section at the next convenient time.
 
 Also see the daily [workflow](workflow.md) report. 
 
@@ -47,21 +55,28 @@ required plots. ETA for finishing improvable basic prototype visualizations: tue
 Maja Minnaert for BeCode
 
 ## Project To-Do List
-There's also a [daily](daily.md) checklist.
+There's also a [daily](daily.md) checklist and a daily [workflow](workflow.md) report.
 
-### Pending and/or partially done
-- [ ] Fix scaling/spiking issue responsively
-(Look in to max-min dependent aspect ratio)
-- [ ] Set up Github Page
-- [ ] Make simple GUI
-- [ ] Study Brython and GUI implementation on web (Github Page)
+### Pending
+- [x] Archive research files
+- [x] Clean up py-script code and comments
+- [ ] Clean up and fill this README's first sections
+- [ ] Copy suitable readme information to website, so it 
+can be an modestly informational stub
+- [x] Do some final testing
+- [x] Reverse x axis to prevent mirrored plot
 
-### To do later
-- [ ] Look into making simple GUI
-- [ ] Look into using Brython to make this a web app on the project github page
-- [ ] Set up placeholder yet informative Github Page
+### Extra tweaks (optional) 
+*(dash and gui's only in branch 'dash-deployment'!!!)*
+- [x] Set up Github Page
+- [ ] Study dash app implementation
 - [ ] Design: make prototype interface
+- [ ] Deploy and test dash app
 - [ ] Set up project Github Page for information/presentation
+- [ ] Make zip file with the script and a short readme with 
+instructions for use (how to include requirements/dependencies?)
+- [ ] Make that zip available on the project website
+- [ ] Link to dash app on the project website
 
 ### Done
 - [x] Set up environment in pycharm
@@ -75,7 +90,7 @@ There's also a [daily](daily.md) checklist.
 - [x] Determine use case data subset
 - [x] Download the data
 - [x] Add notebook for example files & gpd learning
-- [x] Add [notes](notes.txt) file for virtual post-its
+- [x] Add [notes](Archive/notes.txt) file for virtual post-its
 - [x] Explore Data: study file types
 - [x] Learn to work with geopandas
 - [x] Explore Data: look at data contents
@@ -84,7 +99,7 @@ There's also a [daily](daily.md) checklist.
 - [x] Made basic first figure with plotly
 - [x] Find out how to 3D plot AOI
 - [x] Design: check for interface requirements?
-- [x] Updated [notes](notes.txt) with approach tips from debrief
+- [x] Updated [notes](Archive/notes.txt) with approach tips from debrief
 - [x] Created first script file [SeeMyHouse-CLI](SeeMyHouse-CLI.py)
 - [x] Added comments in CLI-script to describe the algorithm
  in human language
@@ -95,3 +110,4 @@ There's also a [daily](daily.md) checklist.
 - [x] Construct window --> Complication raised
 - [x] Convert window from nd-array to pandas dataframe --> Complication risk
 - [x] Tie dataframe into plotly code --> Should be fairly straightforward
+- [x] Fix scaling/spiking issue responsively

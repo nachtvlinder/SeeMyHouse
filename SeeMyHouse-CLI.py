@@ -28,96 +28,88 @@ def coordinate_to_float(dms_string):
     return float_coordinate
 
 
-# This will import the given file
 # A filepath needs to be provided
 # The user can then input a set
 # of coordinates provided in WGS84,
 # the generally known standard coordinate system
+
+# Welcome statement
 print("Welcome to SeeMyHouse")
-tiff_available = "y"  # test-value # input("Can you provide your own GeoTIFF file for 3D plotting? (y/n) ")
-tiff_crs_compatible = "y"  # test-value # input("Please not that only files"
-# " using Belgian Lambert crs are "
-# "compatible. That includes the files "
-# "you can download on the geopunt.be website, "
-# "given you use the .tif file found in the "
-# "\"GeoTIFF\" folder of the zip-file."
-# "Is your file compatible? (y/n) ")
+
+# Compatibility checks
+tiff_available = input("Can you provide your own GeoTIFF file for 3D plotting? (y/n) ")
+tiff_crs_compatible = input("Please not that only files"
+                            " using Belgian Lambert crs are \n"
+                            "compatible. That includes the files \n"
+                            "you can download on the geopunt.be website, \n"
+                            "given you use the .tif file found in the \n"
+                            "\"GeoTIFF\" folder of the zip-file.\n"
+                            "Is your file compatible? (y/n) ")
+
 if tiff_available == ("y" or "Y") and tiff_crs_compatible == ("y" or "Y"):
-    path = "coredata/DHMVIIDSMRAS1m_k13/GeoTIFF/DHMVIIDSMRAS1m_k13.tif"
-    # test-value #input("Please provide the filepath of your GeoTIFF: ")
+    path = input("Please provide the filepath of your GeoTIFF: ")
     print(f"Your filepath: {path}")
 else:
     print("I'm afraid I can't help you yet.")
     quit()
 
+# Reading the file into a rasterio object
 print("Examining file")
-# Here comes the read statement,
-# followed by confirmation and a request
-# for coordinates to plot
 image = rasterio.open(path)
 print("File received")
-print("At what coordinates do you want me to plot?")
+
+# Coordinate input by user
+print("At what coordinates do you want me to look?")
 print("Please provide latitude and longitude \n"
       "in the following format: degrees minutes seconds \n"
-      "(separated by spaces)")
-latitude = "51 12 31.7"  # test-value # input("Latitude: ")
-longitude = "3 13 27.5"  # test-value # input("Longitude: ")
+      "(separated by spaces, no unit symbols or names)")
+latitude = input("Latitude: ")
+longitude = input("Longitude: ")
 name = input("Give your plot a name: ")
 
 # Conversion to floats
 latitude = coordinate_to_float(latitude)
 longitude = coordinate_to_float(longitude)
 
-# which we then need to convert from WGS84 to Belgian Lambert
-# returning them for confirmation
+# Convert from WGS84 to Belgian Lambert
 converter = pyproj.Transformer.from_crs('epsg:4326', 'epsg:31370')
 x, y = converter.transform(latitude, longitude)
 
-# and use them to read a window around the coordinates
-window_margin = 100
-# creating a bounding box around the coordinate point
+# Construct window
+# Define borders of window
+window_margin = int(input("To zoom in to your house, we would like you \n"
+                          "to estimate how wide or deep it is in metres. \n"
+                          "Use whichever value is the largest, so your whole \n"
+                          "house can fit on the 3D model: "))/2 + 10
 left = x - window_margin
 right = x + window_margin
 bottom = y - window_margin
 top = y + window_margin
 
-# followed by converting the resulting window,
-# which is returned by rasterio as an nd-array,
-# into a pandas dataframe
+# Create window object
 area_of_interest = image.read(1, window=rw.from_bounds(
     left, bottom, right, top,
     image.transform))
 
-height_values = pd.DataFrame(data=area_of_interest)
+# Convert to pandas dataframe
+heightmap = pd.DataFrame(data=area_of_interest)
 
-# The following code creates a plot
-# in an automatically opened html file,
-# and will be used to plot the data from the
-# dataframe generated in the previous step
-fig = go.Figure(data=[go.Surface(z=height_values.values,
-                                 colorscale="Portland")])
+# Creating the plotly figure (3D model)
+fig = go.Figure(data=[go.Surface(z=heightmap.values,
+                                 colorscale="Picnic")])
 
-# The figure created in the previous step can be tweaked
-# on its appearance/layout here. For personal note, the
-# only thing I intend to change here is the color scale.
-# Todo: find a way to get a better color, scale and sizing
-fig.update_layout(title=name, autosize=False,
-                  # width=750, height=750,
-                  scene=dict(aspectmode="manual",
-                            aspectratio=dict(x=10, y=10, z=0.2)
-                            ),
-                  # margin=dict(l=65, r=50, b=65, t=90),
-                  # colorscale=go.layout.Colorscale(diverging='greens')
+# Set name and properties for good visual
+# The 'aspectmode' in the scene argument makes
+# sure the model scales correctly and realistically,
+# while 'autosize' is needed to make the plot large enough
+# and responsive to browser window size
+fig.update_layout(title=name, autosize=True,
+                  scene=dict(aspectmode="data",
+                             xaxis_autorange="reversed"),
                   )
 
-# Let's prompt the user when ready, since
-# the plotting may take some time and we
-# don't want to bluntly pop up a browser window
-# amidst the sought-out distractions of their waiting time
-print("3D plot ready.")
-# prompt_to_open = input("Do you want to only save the file, or open it immediately in "
-#                        "your browser? (for save type \"s\", for open type \"o\", "
-#                        "followed by enter) ")
+# Ready prompt
+print(f"3D plot ready. Saved as {name}.html.")
 
 # This will save the plot
 # to an interactive html file
