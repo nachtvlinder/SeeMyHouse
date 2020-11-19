@@ -1,3 +1,10 @@
+## Where to find
+At the moment, the .py script file found
+ on the Github repo (click "View on GitHub") is the 
+only way to run this app. A readme with usage instruction
+is pending, though the current CLI interface already
+provides directions as well.
+
 ## About
 ### What
 A python script for rendering a 3D model of a house at given 
