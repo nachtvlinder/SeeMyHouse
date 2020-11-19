@@ -103,9 +103,9 @@ fig = go.Figure(data=[go.Surface(z=height_values.values,
 # Todo: find a way to get a better color, scale and sizing
 fig.update_layout(title=name, autosize=False,
                   # width=750, height=750,
-                  # scene=dict(aspectmode="manual",
-                  #           aspectratio=dict(x=10, y=10, z=7.5)
-                  #           ),
+                  scene=dict(aspectmode="manual",
+                            aspectratio=dict(x=10, y=10, z=0.2)
+                            ),
                   # margin=dict(l=65, r=50, b=65, t=90),
                   # colorscale=go.layout.Colorscale(diverging='greens')
                   )
@@ -122,7 +122,7 @@ print("3D plot ready.")
 # This will save the plot
 # to an interactive html file
 # and open it in the standard browser
-fig.write_html(f'HTML_plots/{name}.html', auto_open=True)
+fig.write_html(f'testplots/{name}.html', auto_open=True)
 
 # Always exit with a smile
 print("Thank you for using SeeMyHouse!")

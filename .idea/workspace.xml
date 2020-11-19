@@ -16,14 +16,20 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:dash-deployment" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="implement SeeMyHouse-CLI.py up until window method; update workflow.md; update project todolist">
+    <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="update SeeMyHouse-CLI.py test version; update workflow.md; update project todolist">
+      <change afterPath="$PROJECT_DIR$/dash-app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SeeMyHouse-CLI.py" beforeDir="false" afterPath="$PROJECT_DIR$/SeeMyHouse-CLI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflow.md" beforeDir="false" afterPath="$PROJECT_DIR$/workflow.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +44,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="ee984c46-a72d-4010-b0bf-22dc625aaee1">
@@ -126,6 +137,9 @@
       <list>
         <item itemvalue="Python.SeeMyHouse-CLI" />
         <item itemvalue="JavaScript Debug.testGreens.html" />
+        <item itemvalue="Python.SeeMyHouse-CLI" />
+        <item itemvalue="JavaScript Debug.testGreens.html" />
+        <item itemvalue="Python.SeeMyHouse-CLI" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +174,9 @@
       <workItem from="1605548800737" duration="3400000" />
       <workItem from="1605621637535" duration="7154000" />
       <workItem from="1605687641290" duration="10804000" />
-      <workItem from="1605707705193" duration="8032000" />
+      <workItem from="1605707705193" duration="8390000" />
+      <workItem from="1605728615564" duration="2940000" />
+      <workItem from="1605774663477" duration="3824000" />
     </task>
     <task id="LOCAL-00001" summary="say hi">
       <created>1604661394273</created>
@@ -316,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605628231539</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="update SeeMyHouse-CLI.py test version; update workflow.md; update project todolist">
+      <created>1605726893802</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1605726893802</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +350,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dash-deployment" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -354,7 +389,8 @@
     <MESSAGE value="update workflow.md" />
     <MESSAGE value="create and update SeeMyHouse-CLI.py with comment-algorithm; update README.md and workflow.md" />
     <MESSAGE value="implement SeeMyHouse-CLI.py up until window method; update workflow.md; update project todolist" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement SeeMyHouse-CLI.py up until window method; update workflow.md; update project todolist" />
+    <MESSAGE value="update SeeMyHouse-CLI.py test version; update workflow.md; update project todolist" />
+    <option name="LAST_COMMIT_MESSAGE" value="update SeeMyHouse-CLI.py test version; update workflow.md; update project todolist" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3256" y="70" width="584" height="418" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605187235231">
@@ -390,22 +426,22 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1862" height="335" key="GridCell.Tab.-1.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605624159765" />
-    <state width="906" height="296" key="GridCell.Tab.0.bottom" timestamp="1605715435398">
+    <state width="906" height="296" key="GridCell.Tab.0.bottom" timestamp="1605782733546">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="906" height="296" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605715435398" />
-    <state width="906" height="296" key="GridCell.Tab.0.center" timestamp="1605715435398">
+    <state width="906" height="296" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605782733546" />
+    <state width="906" height="296" key="GridCell.Tab.0.center" timestamp="1605782733546">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="906" height="296" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605715435398" />
-    <state width="906" height="296" key="GridCell.Tab.0.left" timestamp="1605715435397">
+    <state width="906" height="296" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605782733546" />
+    <state width="906" height="296" key="GridCell.Tab.0.left" timestamp="1605782733546">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="906" height="296" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605715435397" />
-    <state width="906" height="296" key="GridCell.Tab.0.right" timestamp="1605715435398">
+    <state width="906" height="296" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605782733546" />
+    <state width="906" height="296" key="GridCell.Tab.0.right" timestamp="1605782733546">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="906" height="296" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605715435398" />
+    <state width="906" height="296" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605782733546" />
     <state x="2107" y="106" width="1536" height="901" key="MergeDialog" timestamp="1604910392994">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -415,18 +451,18 @@
     </state>
     <state x="1920" y="343" width="1920" height="737" key="SettingsEditor/0.27.3840.1053@0.27.3840.1053" timestamp="1604919738181" />
     <state x="2840" y="323" width="992" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605523221940" />
-    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605628241342">
+    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605782316673">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="90" y="558" key="Vcs.Push.Dialog.v2/0.27.3840.1053@0.27.3840.1053" timestamp="1604917113409" />
-    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605628241342" />
-    <state x="2174" y="730" width="392" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604910477962">
+    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605782316673" />
+    <state x="2174" y="730" width="392" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605735646064">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2174" y="730" width="392" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604910477962" />
+    <state x="2174" y="730" width="392" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605735646064" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SeeMyHouse$3Dplotly.coverage" NAME="3Dplotly Coverage Results" MODIFIED="1605549359454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SeeMyHouse$SeeMyHouse_CLI.coverage" NAME="SeeMyHouse-CLI Coverage Results" MODIFIED="1605715435388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SeeMyHouse$SeeMyHouse_CLI.coverage" NAME="SeeMyHouse-CLI Coverage Results" MODIFIED="1605782613049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
