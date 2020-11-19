@@ -16,13 +16,24 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="implement SeeMyHouse-CLI.py up until window method; update workflow.md; update project todolist">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeoData.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/GeoData.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningExcercises.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/LearningExcercises.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SeeMyHouse-CLI.py" beforeDir="false" afterPath="$PROJECT_DIR$/SeeMyHouse-CLI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotly.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/plotly.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workflow.md" beforeDir="false" afterPath="$PROJECT_DIR$/workflow.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +53,7 @@
   </component>
   <component name="JupyterTrust" id="ee984c46-a72d-4010-b0bf-22dc625aaee1">
     <option name="files">
-      <option value="LearningExcercises.ipynb" />
+      <option value="Archive/LearningExcercises.ipynb" />
     </option>
   </component>
   <component name="ProjectId" id="1juh14nULN5C72PhG95ZVay5OLE" />
@@ -66,12 +77,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/HTML_plots" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testplots" />
+      <recent name="$PROJECT_DIR$/Archive" />
+      <recent name="$PROJECT_DIR$/HTML_plots" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Python.SeeMyHouse-CLI">
@@ -327,7 +340,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -390,22 +415,22 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1862" height="335" key="GridCell.Tab.-1.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605624159765" />
-    <state width="906" height="296" key="GridCell.Tab.0.bottom" timestamp="1605715435398">
+    <state width="906" height="296" key="GridCell.Tab.0.bottom" timestamp="1605796432673">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="906" height="296" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605715435398" />
-    <state width="906" height="296" key="GridCell.Tab.0.center" timestamp="1605715435398">
+    <state width="906" height="296" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605796432673" />
+    <state width="906" height="296" key="GridCell.Tab.0.center" timestamp="1605796432673">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="906" height="296" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605715435398" />
-    <state width="906" height="296" key="GridCell.Tab.0.left" timestamp="1605715435397">
+    <state width="906" height="296" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605796432673" />
+    <state width="906" height="296" key="GridCell.Tab.0.left" timestamp="1605796432672">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="906" height="296" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605715435397" />
-    <state width="906" height="296" key="GridCell.Tab.0.right" timestamp="1605715435398">
+    <state width="906" height="296" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605796432672" />
+    <state width="906" height="296" key="GridCell.Tab.0.right" timestamp="1605796432673">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="906" height="296" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605715435398" />
+    <state width="906" height="296" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605796432673" />
     <state x="2107" y="106" width="1536" height="901" key="MergeDialog" timestamp="1604910392994">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -424,9 +449,13 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2174" y="730" width="392" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1604910477962" />
+    <state x="3117" y="259" width="471" height="596" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605782876156">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3117" y="259" width="471" height="596" key="git4idea.branch.GitSmartOperationDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605782876156" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SeeMyHouse$3Dplotly.coverage" NAME="3Dplotly Coverage Results" MODIFIED="1605549359454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SeeMyHouse$SeeMyHouse_CLI.coverage" NAME="SeeMyHouse-CLI Coverage Results" MODIFIED="1605715435388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SeeMyHouse$SeeMyHouse_CLI.coverage" NAME="SeeMyHouse-CLI Coverage Results" MODIFIED="1605796432648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -144,7 +144,7 @@ Started in reverse today, trying to plot a 3D elevation model based
 on the plotly getting started pages on their website. This worked, 
 and I attempted to apply a custom colorscale to this as I had found
 one through another code approach found online. The source of the latter
-is found atop [the new plotly notebook](plotly.ipynb). The second approach listed
+is found atop [the new plotly notebook](Archive/plotly.ipynb). The second approach listed
 at the top with a source URL is partially implemented there. Next working day
 I will move on to the more urgent matter of slicing, which has been a muddy
 area last week. I presume external issues have impacted my workflow there.
@@ -157,7 +157,7 @@ days running up to the deadline.
 The issue of parsing geotiff to dataframe was
 brought up during debrief, resulting in getting
 some very usable advice from a colleague. I notes this 
-in my [notes](notes.txt) file, intending
+in my [notes](Archive/notes.txt) file, intending
 to implement these into my project todolist.
 Fingers crossed for getting this backend algorithm
 figured out fast tomorrow.

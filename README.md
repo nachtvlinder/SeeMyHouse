@@ -49,19 +49,24 @@ Maja Minnaert for BeCode
 ## Project To-Do List
 There's also a [daily](daily.md) checklist.
 
-### Pending and/or partially done
-- [ ] Fix scaling/spiking issue responsively
-(Look in to max-min dependent aspect ratio)
-- [ ] Set up Github Page
-- [ ] Make simple GUI
-- [ ] Study Brython and GUI implementation on web (Github Page)
+### Pending
+- [x] Archive research files
+- [ ] Clean up py-script code and comments
+- [ ] Clean up and fill this README's first sections
+- [ ] Do some final testing
+- [x] Reverse x axis to prevent mirrored plot
 
-### To do later
-- [ ] Look into making simple GUI
-- [ ] Look into using Brython to make this a web app on the project github page
-- [ ] Set up placeholder yet informative Github Page
+### Extra tweaks (optional) 
+*(dash and gui's only in branch 'dash-deployment'!!!)*
+- [x] Set up Github Page
+- [ ] Study dash app implementation
 - [ ] Design: make prototype interface
+- [ ] Deploy and test dash app
 - [ ] Set up project Github Page for information/presentation
+- [ ] Make zip file with the script and a short readme with 
+instructions for use
+- [ ] Make that zip available on the project website
+- [ ] Link to dash app on the project website
 
 ### Done
 - [x] Set up environment in pycharm
@@ -75,7 +80,7 @@ There's also a [daily](daily.md) checklist.
 - [x] Determine use case data subset
 - [x] Download the data
 - [x] Add notebook for example files & gpd learning
-- [x] Add [notes](notes.txt) file for virtual post-its
+- [x] Add [notes](Archive/notes.txt) file for virtual post-its
 - [x] Explore Data: study file types
 - [x] Learn to work with geopandas
 - [x] Explore Data: look at data contents
@@ -84,7 +89,7 @@ There's also a [daily](daily.md) checklist.
 - [x] Made basic first figure with plotly
 - [x] Find out how to 3D plot AOI
 - [x] Design: check for interface requirements?
-- [x] Updated [notes](notes.txt) with approach tips from debrief
+- [x] Updated [notes](Archive/notes.txt) with approach tips from debrief
 - [x] Created first script file [SeeMyHouse-CLI](SeeMyHouse-CLI.py)
 - [x] Added comments in CLI-script to describe the algorithm
  in human language
@@ -95,3 +100,4 @@ There's also a [daily](daily.md) checklist.
 - [x] Construct window --> Complication raised
 - [x] Convert window from nd-array to pandas dataframe --> Complication risk
 - [x] Tie dataframe into plotly code --> Should be fairly straightforward
+- [x] Fix scaling/spiking issue responsively
