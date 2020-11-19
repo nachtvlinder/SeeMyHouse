@@ -51,9 +51,9 @@ There's also a [daily](daily.md) checklist.
 
 ### Pending
 - [x] Archive research files
-- [ ] Clean up py-script code and comments
+- [x] Clean up py-script code and comments
 - [ ] Clean up and fill this README's first sections
-- [ ] Do some final testing
+- [x] Do some final testing
 - [x] Reverse x axis to prevent mirrored plot
 
 ### Extra tweaks (optional) 
@@ -64,7 +64,7 @@ There's also a [daily](daily.md) checklist.
 - [ ] Deploy and test dash app
 - [ ] Set up project Github Page for information/presentation
 - [ ] Make zip file with the script and a short readme with 
-instructions for use
+instructions for use (how to include requirements/dependencies?)
 - [ ] Make that zip available on the project website
 - [ ] Link to dash app on the project website
 

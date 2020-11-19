@@ -64,8 +64,8 @@ print("At what coordinates do you want me to look?")
 print("Please provide latitude and longitude \n"
       "in the following format: degrees minutes seconds \n"
       "(separated by spaces, no unit symbols or names)")
-latitude = "51 11 51.4"  # test-value # input("Latitude: ")
-longitude = "3 13 06.1"  # test-value # input("Longitude: ")
+latitude = input("Latitude: ")
+longitude = input("Longitude: ")
 name = input("Give your plot a name: ")
 
 # Conversion to floats
@@ -81,7 +81,7 @@ x, y = converter.transform(latitude, longitude)
 window_margin = int(input("To zoom in to your house, we would like you \n"
                           "to estimate how wide or deep it is in metres. \n"
                           "Use whichever value is the largest, so your whole \n"
-                          "house can fit on the 3D model: ")) + 10
+                          "house can fit on the 3D model: "))/2 + 10
 left = x - window_margin
 right = x + window_margin
 bottom = y - window_margin

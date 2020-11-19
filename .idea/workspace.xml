@@ -25,16 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="implement SeeMyHouse-CLI.py up until window method; update workflow.md; update project todolist">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="update structure, script and readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeoData.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/GeoData.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningExcercises.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/LearningExcercises.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SeeMyHouse-CLI.py" beforeDir="false" afterPath="$PROJECT_DIR$/SeeMyHouse-CLI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotly.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/plotly.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflow.md" beforeDir="false" afterPath="$PROJECT_DIR$/workflow.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +82,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.SeeMyHouse-CLI">
+    <configuration name="dumonsmall.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SeeMyHouse/testplots/dumonsmall.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="stanna.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SeeMyHouse/testplots/stanna.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="testGreens.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SeeMyHouse/HTML_plots/testGreens.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -138,6 +138,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.SeeMyHouse-CLI" />
+        <item itemvalue="JavaScript Debug.stanna.html" />
+        <item itemvalue="JavaScript Debug.dumonsmall.html" />
         <item itemvalue="JavaScript Debug.testGreens.html" />
       </list>
     </recent_temporary>
@@ -329,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605628231539</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="update structure, script and readme">
+      <created>1605796782981</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1605796782981</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +388,8 @@
     <MESSAGE value="update workflow.md" />
     <MESSAGE value="create and update SeeMyHouse-CLI.py with comment-algorithm; update README.md and workflow.md" />
     <MESSAGE value="implement SeeMyHouse-CLI.py up until window method; update workflow.md; update project todolist" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement SeeMyHouse-CLI.py up until window method; update workflow.md; update project todolist" />
+    <MESSAGE value="update structure, script and readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="update structure, script and readme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3256" y="70" width="584" height="418" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605187235231">
@@ -415,22 +425,22 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1862" height="335" key="GridCell.Tab.-1.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605624159765" />
-    <state width="906" height="296" key="GridCell.Tab.0.bottom" timestamp="1605796432673">
+    <state width="906" height="296" key="GridCell.Tab.0.bottom" timestamp="1605797521200">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="906" height="296" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605796432673" />
-    <state width="906" height="296" key="GridCell.Tab.0.center" timestamp="1605796432673">
+    <state width="906" height="296" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605797521200" />
+    <state width="906" height="296" key="GridCell.Tab.0.center" timestamp="1605797521199">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="906" height="296" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605796432673" />
-    <state width="906" height="296" key="GridCell.Tab.0.left" timestamp="1605796432672">
+    <state width="906" height="296" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605797521199" />
+    <state width="906" height="296" key="GridCell.Tab.0.left" timestamp="1605797521199">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="906" height="296" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605796432672" />
-    <state width="906" height="296" key="GridCell.Tab.0.right" timestamp="1605796432673">
+    <state width="906" height="296" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605797521199" />
+    <state width="906" height="296" key="GridCell.Tab.0.right" timestamp="1605797521199">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="906" height="296" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605796432673" />
+    <state width="906" height="296" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605797521199" />
     <state x="2107" y="106" width="1536" height="901" key="MergeDialog" timestamp="1604910392994">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -440,11 +450,11 @@
     </state>
     <state x="1920" y="343" width="1920" height="737" key="SettingsEditor/0.27.3840.1053@0.27.3840.1053" timestamp="1604919738181" />
     <state x="2840" y="323" width="992" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605523221940" />
-    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605628241342">
+    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605796787905">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="90" y="558" key="Vcs.Push.Dialog.v2/0.27.3840.1053@0.27.3840.1053" timestamp="1604917113409" />
-    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605628241342" />
+    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605796787905" />
     <state x="2174" y="730" width="392" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604910477962">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -456,6 +466,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SeeMyHouse$3Dplotly.coverage" NAME="3Dplotly Coverage Results" MODIFIED="1605549359454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SeeMyHouse$SeeMyHouse_CLI.coverage" NAME="SeeMyHouse-CLI Coverage Results" MODIFIED="1605796432648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SeeMyHouse$SeeMyHouse_CLI.coverage" NAME="SeeMyHouse-CLI Coverage Results" MODIFIED="1605797315885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
