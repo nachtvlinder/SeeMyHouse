@@ -232,3 +232,24 @@ it can be extended upon with different UX interfaces
 
 Overall this was a very productive day, thanks to the many
 research and preparations done in previous days.
+
+## November 19, 2020
+The day before the assignment deadline. I tweaked some last issues
+out, such as the scaling and applying a colleagues code-line to 
+prevent the mirroring of the model. I cleaned up the code and comments,
+cleaned up the repo a bit and made sure everything was in good-looking
+and working order. Added some input options as well, like for choosing
+how big to make the window, based on an estimation of the size of the
+house the user wants to plot a 3D model of.
+
+I challenged myself to build a dash app, since I have enough basics in 
+JavaScript and HTML to learn this quickly, but some personal issues
+obstructed my path in the afternoon. I keep these ideas in 
+the project todolist as "Extra tweaks" for potential future explorations.
+
+The script as is can be used by anyone who can provide 
+a tif file appropriate to their desired location to make
+a 3D model, though it is more of a novelty than a precision tool.
+
+
+

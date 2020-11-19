@@ -1,13 +1,21 @@
 # SeeMyHouse
-An application that shows a 3D model of the building/house at a given location based on coordinates.
+A python script for rendering a 3D model of a house at given 
+coordinates based on a user-provided GeoTIFF.
 
 ## About
 
 ### What
-A backend and interface for rendering a 3D model of a house at given 
-coordinates in the area of Bruges, Belgium.
+A python script for rendering a 3D model of a house at given 
+coordinates based on a user-provided GeoTIFF.
 
-Extras, pending further inspiration, will be listed here.
+There is currently only a CLI based version, plans are
+in place to make a Dash web application with similar functionality
+and a py-script that operates with a simple GUI. This is first
+and foremost a practice experience embedded in BeCode's AI Bootcamp
+training, however I would enjoy building further on it.
+
+If you found this link through my future portfolio, you can see this
+as my first full application project.
 
 ### Why
 Imagine a world where everyone can see their house, not by just walking outside and
@@ -30,8 +38,8 @@ be described here as time passes. A first glance of
 this, including issues encountered and
 solutions/approaches found and tested, 
 is available in the November 10 section of the
-[workflow](workflow.md) file, and will be 
-integrated in this README.md section early next working day.
+[workflow](workflow.md) file. I will update
+this section at the next convenient time.
 
 Also see the daily [workflow](workflow.md) report. 
 
@@ -47,12 +55,14 @@ required plots. ETA for finishing improvable basic prototype visualizations: tue
 Maja Minnaert for BeCode
 
 ## Project To-Do List
-There's also a [daily](daily.md) checklist.
+There's also a [daily](daily.md) checklist and a daily [workflow](workflow.md) report.
 
 ### Pending
 - [x] Archive research files
 - [x] Clean up py-script code and comments
 - [ ] Clean up and fill this README's first sections
+- [ ] Copy suitable readme information to website, so it 
+can be an modestly informational stub
 - [x] Do some final testing
 - [x] Reverse x axis to prevent mirrored plot
 

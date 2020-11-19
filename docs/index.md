@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+## About
+### What
+A python script for rendering a 3D model of a house at given 
+coordinates based on a user-provided GeoTIFF.
 
-You can use the [editor on GitHub](https://github.com/majaminnaert/SeeMyHouse/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+There is currently only a CLI based version, plans are
+in place to make a Dash web application with similar functionality
+and a py-script that operates with a simple GUI. This is first
+and foremost a practice experience embedded in BeCode's AI Bootcamp
+training, however I would enjoy building further on it.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+If you found this link through my future portfolio, you can see this
+as my first full application project.
 
-### Markdown
+### Why
+Imagine a world where everyone can see their house, not by just walking outside and
+looking at it, but by looking up the coordinates and typing them into some webpage or app
+that then shows them a 3D model of their house based on LIDAR data. Wouldn't that be
+awesome?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Also I want to show you what I can do with a keyboard, an internet connection and a decent
+computer.
 
-```markdown
-Syntax highlighted code block
+### When
+Started: November 6, 2020
 
-# Header 1
-## Header 2
-### Header 3
+Deadline: November 20, 2020
 
-- Bulleted
-- List
+### How
+TBA
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/majaminnaert/SeeMyHouse/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Who
+Maja Minnaert for BeCode (BE)
