@@ -38,7 +38,7 @@ print("Welcome to SeeMyHouse")
 
 # Compatibility checks
 tiff_available = input("Can you provide your own GeoTIFF file for 3D plotting? (y/n) ")
-tiff_crs_compatible = input("Please not that only files"
+tiff_crs_compatible = input("Please note that only files"
                             " using Belgian Lambert crs are \n"
                             "compatible. That includes the files \n"
                             "you can download on the geopunt.be website, \n"

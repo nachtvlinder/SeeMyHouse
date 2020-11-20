@@ -26,7 +26,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="update README.md; update index.md;">
-      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archive/GeoData.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archive/LearningExcercises.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archive/notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archive/plotly.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeeMyHouse-CLI.py" beforeDir="false" afterPath="$PROJECT_DIR$/SeeMyHouse-CLI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +49,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="ee984c46-a72d-4010-b0bf-22dc625aaee1">
-    <option name="files">
-      <option value="Archive/LearningExcercises.ipynb" />
-    </option>
-  </component>
+  <component name="JupyterTrust" id="ee984c46-a72d-4010-b0bf-22dc625aaee1" />
   <component name="ProjectId" id="1juh14nULN5C72PhG95ZVay5OLE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -174,6 +176,8 @@
       <workItem from="1605621637535" duration="7154000" />
       <workItem from="1605687641290" duration="10804000" />
       <workItem from="1605707705193" duration="8032000" />
+      <workItem from="1605859843468" duration="502000" />
+      <workItem from="1605865567421" duration="271000" />
     </task>
     <task id="LOCAL-00001" summary="say hi">
       <created>1604661394273</created>
