@@ -25,9 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="update SeeMyHouse-CLI.py test version; update workflow.md; update project todolist">
-      <change afterPath="$PROJECT_DIR$/SeeMyHouse-GUI.py" afterDir="false" />
-    </list>
+    <list default="true" id="1b819560-d23a-4c1e-b833-e9cd9e5a92be" name="Default Changelist" comment="basic GUI work" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -361,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605726893802</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="basic GUI work">
+      <created>1605830751637</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1605830751637</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,7 +417,8 @@
     <MESSAGE value="create and update SeeMyHouse-CLI.py with comment-algorithm; update README.md and workflow.md" />
     <MESSAGE value="implement SeeMyHouse-CLI.py up until window method; update workflow.md; update project todolist" />
     <MESSAGE value="update SeeMyHouse-CLI.py test version; update workflow.md; update project todolist" />
-    <option name="LAST_COMMIT_MESSAGE" value="update SeeMyHouse-CLI.py test version; update workflow.md; update project todolist" />
+    <MESSAGE value="basic GUI work" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic GUI work" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3256" y="70" width="584" height="418" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605187235231">
@@ -456,22 +462,22 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1862" height="335" key="GridCell.Tab.-1.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605624159765" />
-    <state width="906" height="296" key="GridCell.Tab.0.bottom" timestamp="1605830491999">
+    <state width="1034" height="296" key="GridCell.Tab.0.bottom" timestamp="1605830781421">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="906" height="296" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605830491999" />
-    <state width="906" height="296" key="GridCell.Tab.0.center" timestamp="1605830491999">
+    <state width="1034" height="296" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605830781421" />
+    <state width="1034" height="296" key="GridCell.Tab.0.center" timestamp="1605830781421">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="906" height="296" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605830491999" />
-    <state width="906" height="296" key="GridCell.Tab.0.left" timestamp="1605830491999">
+    <state width="1034" height="296" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605830781421" />
+    <state width="1034" height="296" key="GridCell.Tab.0.left" timestamp="1605830781420">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="906" height="296" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605830491999" />
-    <state width="906" height="296" key="GridCell.Tab.0.right" timestamp="1605830491999">
+    <state width="1034" height="296" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605830781420" />
+    <state width="1034" height="296" key="GridCell.Tab.0.right" timestamp="1605830781421">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="906" height="296" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605830491999" />
+    <state width="1034" height="296" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605830781421" />
     <state x="2107" y="106" width="1536" height="901" key="MergeDialog" timestamp="1604910392994">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -481,11 +487,11 @@
     </state>
     <state x="1920" y="343" width="1920" height="737" key="SettingsEditor/0.27.3840.1053@0.27.3840.1053" timestamp="1604919738181" />
     <state x="2840" y="323" width="992" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605523221940" />
-    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605782316673">
+    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605830757577">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="90" y="558" key="Vcs.Push.Dialog.v2/0.27.3840.1053@0.27.3840.1053" timestamp="1604917113409" />
-    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605782316673" />
+    <state x="1965" y="545" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605830757577" />
     <state x="2174" y="730" width="392" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605735646064">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
